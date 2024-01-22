@@ -1,8 +1,14 @@
-# React + Vite
+# Movie display screen using react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this uses api provided by tvmaze
 
-Currently, two official plugins are available:
+- [Deployed site](https://moviedisplay.onrender.com) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Router has been used to navigate the users to different pages.
+
+3 pages are:
+- Grid.jsx to show all movies
+-Info.jsx to show info of a specific movie
+-Bool.jsx to for booking
+
+after booking, the user is redirected to the home or grid page.
